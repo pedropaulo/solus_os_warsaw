@@ -1,24 +1,27 @@
 # WARSAW no SOLUS OS
 
-Pra rodar o WARSAW da CAIXA ECONOMICA FEDERAL no SOLUS OS 3 , eu fiz o seguinte:
+Para executar o WARSAW da CAIXA ECONOMICA FEDERAL no SOLUS OS 3:
 
-Instalei a dependência libnss 
+Instalar a dependência libnss 
 
-Baixei e descompatei o arquivo .DEB no site da CAIXA.
-Daí em diante, copiei alguns arquivos/pastas manualmente para seus respectivos diretório no SOLUS
+Fazer o download e descompatar o arquivo .DEB no site da CAIXA.
 
-- usr/share/fonts/truetype/dbldwrsw.ttf
+Em seguida, copiar alguns arquivos/pastas manualmente para seus respectivos diretório no SOLUS
+
+- /usr/share/fonts/truetype/dbldwrsw.ttf
 - /usr/local/bin/warsaw/*
 - /usr/local/etc/warsaw/*
 - /usr/local/lib/warsaw/*
 
-Dou as permissões necessárias, de acordo com arquivo control/postinst
+Executar as permissões necessárias, de acordo com arquivo control/postinst
 
-Executo o arquivo - /usr/local/bin/warsaw/wscertmgr pra gerar o certificado
+Executar o arquivo - /usr/local/bin/warsaw/wscertmgr para gerar o certificado
 
-E depois executo o - /usr/local/bin/warsaw/core
+### Quando for entrar no site
 
-Depois disso, entrei na CAIXA com o Firefox e funcionou.
+Executar o - /usr/local/bin/warsaw/core
+
+TESTADO no FIREFOX 56
 
 
 
