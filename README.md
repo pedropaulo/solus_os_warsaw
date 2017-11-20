@@ -4,7 +4,7 @@ Para executar o WARSAW da CAIXA ECONOMICA FEDERAL no SOLUS OS 3:
 
 Instalar a dependência libnss 
 
-Fazer o download e descompatar o arquivo .DEB no site da CAIXA.
+Fazer o download do arquivo .DEB no site da CAIXA e descompatá-lo.
 
 Em seguida, copiar alguns arquivos/pastas manualmente para seus respectivos diretório no SOLUS
 
